@@ -4,68 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>website</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg px-lg-5 ps-3">
+        <div class="container-fluid pe-lg-5">
+            <a class="navbar-brand" href="#">
+                <img src="./images/SiteLogo.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse justify-content-end gap-custom flex-column flex-lg-row " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-3 align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link active text-black fw-medium" aria-current="page" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link text-black fw-medium" href="#">Features</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-medium" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-medium" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-medium" href="#">Team</a>
+                    </li> 
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+               <div>
+                 <button class="btn btn-custom" type="submit">Sign In</button>
+               </div>
+                
             </div>
         </div>
     </nav>
     <!-- Navbar end -->
     <!-- Hero section start -->
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container-fluid w-100 hero col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6"> <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid"
-                    alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
-                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
-                        class="btn btn-primary btn-lg px-4 me-md-2">Primary</button> <button type="button"
-                        class="btn btn-outline-secondary btn-lg px-4">Default</button> </div>
+            <div class=" hero-right col-10 col-sm-8 col-lg-6  d-flex justify-content-center align-items-center">
+                 <div class="col-lg-5">
+                    <img src="./images/iPhone-13-Pro-Front.png" class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                 </div>
+                 </div>
+            <div class="col-lg-6 ">
+              <div class="d-flex flex-column justify-content-center ps-lg-5 hero-gap mb-5 ms-lg5">
+                  <div>
+                    <h1 class="hero-h1 display-1 text-body-emphasis text-center text-lg-start">Turbo prototyping tool</h1>
+                <h1 class="hero-h1 display-1 text-body-emphasis lh-1 mb-3 text-center text-lg-start">for app design</h1>
+                  </div>
+                  <div>
+                <p class="lead hero-p mb-0 text-center text-lg-start">Ideate and collaborate on website prototypes with team and clients</p>
+                  </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center justify-content-lg-start">
+                     <button type="button"
+                        class="btn hero-btn btn-lg px-4 me-md-2">Get started</button> 
+                 </div>
+              </div>
             </div>
         </div>
     </div>

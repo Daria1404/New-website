@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+.btn-custom{
+    border: 1px solid black !important;
+    padding:5px 30px 5px 30px !important ;
+    color: black !important;
+    border-radius: 50px !important;
+}
+.gap-custom{
+    display: flex !important;
+    gap: 70px !important;
+}
+.hero{
+    background-color: #D6E4FE !important;
+
+}
+.hero-gap{
+  gap: 80px !important;
+}
+.hero-btn{
+    background-color: #0A84FF !important;
+    color: white !important;
+    padding: 10px 40px 10px 40px !important;
+    box-shadow: 0px 8px 8px -4px #18274B14 !important;
+    box-shadow: 0px 4px 6px -4px #18274B1F !important;
+    border-radius: 50px !important;
+    font-family: Roboto !important;
+    font-weight: 300 !important;
+}
+.hero-h1{
+    color: #491D8B !important;
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    font-family: Roboto !important;
+    line-height: 100% !important;
+}
+.hero-p{
+    color: #37383C !important;
+    line-height: 30% !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    font-family: Roboto !important;
+}
+.hero-right{
+    background-image: url(./images/Group.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.ul li a{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-family: Roboto !important;
+}
+@media screen and (max-width:566px) {
+    .gap-custom{
+    display: flex !important;
+    gap: 20px !important;
+}
+.hero-h1{
+    font-size: 42px !important;
+}
+.hero-p{
+     line-height: 100% !important;
+}
+}
+@media screen and (min-width:567px) and (max-width:766px) {
+    .gap-custom{
+    display: flex !important;
+    gap: 20px !important;
+}
+.hero-h1{
+    font-size: 55px !important;
+}
+}
+@media screen and (min-width:767px) and (max-width:990px) {
+       .gap-custom{
+    display: flex !important;
+    gap: 20px !important;
+}
+}
+@media screen and (min-width:991px) and (max-width:1199px) {
+.hero-p{
+     line-height: 100% !important;
+}
+.hero-h1{
+    font-size: 50px !important;
+}
+.hero-gap{
+  gap: 50px !important;
+}
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+.hero-p{
+     line-height: 100% !important;
+}
+.hero-h1{
+    font-size: 50px !important;
+}
+.hero-gap{
+  gap: 50px !important;
+}
+}
