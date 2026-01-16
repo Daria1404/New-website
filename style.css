@@ -8,13 +8,8 @@
     color: black !important;
     border-radius: 50px !important;
 }
-.gap-custom{
-    display: flex !important;
-    gap: 70px !important;
-}
 .hero{
     background-color: #D6E4FE !important;
-
 }
 .hero-gap{
   gap: 80px !important;
@@ -54,10 +49,6 @@
     font-family: Roboto !important;
 }
 @media screen and (max-width:566px) {
-    .gap-custom{
-    display: flex !important;
-    gap: 20px !important;
-}
 .hero-h1{
     font-size: 42px !important;
 }
@@ -69,19 +60,11 @@
 }
 }
 @media screen and (min-width:567px) and (max-width:766px) {
-    .gap-custom{
-    display: flex !important;
-    gap: 20px !important;
-}
 .hero-h1{
     font-size: 55px !important;
 }
 }
 @media screen and (min-width:767px) and (max-width:990px) {
-       .gap-custom{
-    display: flex !important;
-    gap: 20px !important;
-}
 }
 @media screen and (min-width:991px) and (max-width:1199px) {
 .hero-p{
