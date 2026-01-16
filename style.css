@@ -64,6 +64,9 @@
 .hero-p{
      line-height: 100% !important;
 }
+.hero-gap{
+    gap: 40px !important;
+}
 }
 @media screen and (min-width:567px) and (max-width:766px) {
     .gap-custom{
